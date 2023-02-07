@@ -6,8 +6,10 @@ public class Dog {
     private String temperment;
     private String gender;
     private String bio;
+    private String email;
+    private String password;
 
-    public Dog(String name, int age, String breed, String suburb, String temperment, String gender, String bio) 
+    public Dog(String name, int age, String breed, String suburb, String temperment, String gender, String bio, String email, String password) {
     {
         this.name=name;
         this.age=age;
@@ -16,6 +18,8 @@ public class Dog {
         this.temperment = temperment;
         this.gender = gender;
         this.bio = bio;
+        this.email = email;
+        this.password = password;
     }
 
 
