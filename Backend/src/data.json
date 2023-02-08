@@ -1,0 +1,40 @@
+{
+    "dogs": [
+        {
+            "name": "lucky",
+            "age": 2,
+            "suburb": "Wynyard",
+            "breed": "Maremma",
+            "gender": "Male",
+            "photo": "photos/lucky",
+            "temperament": "Protective",
+            "bio": "Lucky is lucky",
+            "owner": "Jane",
+            "email": "test123@gmail.com"
+        },
+        {
+            "name": "coco",
+            "age": 4,
+            "suburb": "Town hall",
+            "breed": "poodle",
+            "gender": "Female",
+            "photo": "photos/lucky",
+            "temperament": "Kind",
+            "bio": "Coco eats coco pops",
+            "owner": "Justin",
+            "email": "tester@gmail.com"
+        }
+    ],
+    "parks": [
+        {
+            "name": "hyde park", 
+            "address": "34 Pitt Street, Wynyard",
+            "coords": [1,2]
+        },
+        {
+            "name": "Meow park", 
+            "address": "123 George Street, Town Hall",
+            "coords": [46,87]
+        }
+    ]
+}
