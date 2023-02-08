@@ -1,0 +1,4 @@
+sys
+flask
+flask_cors
+json
