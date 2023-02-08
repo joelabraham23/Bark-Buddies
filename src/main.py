@@ -2,7 +2,7 @@ import sys
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from json import dumps, loads, load, dump
-from dog import Dog
+from src.dog import Dog
 
 def defaultHandler(err):
     response = err.get_response()
@@ -66,4 +66,3 @@ def getallparks():
 
 if __name__ == "__main__":
     APP.run(port=8080)
-

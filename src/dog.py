@@ -1,5 +1,3 @@
-import json
-
 class Dog:
     def __init__(self, name, age, suburb, breed, gender, photo_path, temperament, bio, email, owner_name):
         self.name = name
