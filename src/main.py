@@ -2,7 +2,7 @@ import sys
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from json import dumps, loads, load, dump
-from src.dog import Dog
+from dog import Dog
 
 def defaultHandler(err):
     response = err.get_response()
