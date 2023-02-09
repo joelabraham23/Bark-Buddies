@@ -1,40 +1,203 @@
 {
     "dogs": [
         {
-            "name": "lucky",
+            "id": 1,
+            "name": "Lucky",
             "age": 2,
             "suburb": "Wynyard",
             "breed": "Maremma",
             "gender": "Male",
-            "photo": "photos/lucky",
+            "photo": "get_image/dog1.jpeg",
             "temperament": "Protective",
-            "bio": "Lucky is lucky",
+            "bio": "Lucky is a 2-year-old male Maremma who loves to play and protect his family. He lives in Wynyard and is owned by Jane. He has a charming personality and loves to make new friends. Lucky is a loyal and devoted dog who is always eager to please his owners.",
             "owner": "Jane",
-            "email": "test123@gmail.com"
+            "email": "jane3@gmail.com"
         },
         {
-            "name": "coco",
-            "age": 4,
-            "suburb": "Town hall",
-            "breed": "poodle",
+            "id": 2,
+            "name": "Buddy",
+            "age": 5,
+            "suburb": "Surry Hills",
+            "breed": "Labrador Retriever",
+            "gender": "Male",
+            "photo": "get_image/dog2.jpeg",
+            "temperament": "Friendly",
+            "bio": "Buddy is a 5-year-old male Labrador Retriever who loves to play and cuddle. He lives in Sydney and is owned by Sarah. Buddy is a friendly and affectionate dog who loves to meet new people and make new friends.",
+            "owner": "Sarah",
+            "email": "sarah1@gmail.com"
+        },
+        {
+            "id": 3,
+            "name": "Rufus",
+            "age": 3,
+            "suburb": "Chippendale",
+            "breed": "Beagle",
+            "gender": "Male",
+            "photo": "get_image/dog3.JPG",
+            "temperament": "Active",
+            "bio": "Rufus is a 3-year-old male Beagle who loves to play and explore. He lives in Melbourne and is owned by David. Rufus is an active and energetic dog who loves to play fetch and go on long walks.",
+            "owner": "David",
+            "email": "david2@gmail.com"
+        },
+        {
+            "id": 4,
+            "name": "Daisy",
+            "age": 1,
+            "suburb": "Darlinghurst",
+            "breed": "Poodle",
             "gender": "Female",
-            "photo": "photos/lucky",
-            "temperament": "Kind",
-            "bio": "Coco eats coco pops",
-            "owner": "Justin",
-            "email": "tester@gmail.com"
-        }
+            "photo": "get_image/dog4.jpg",
+            "temperament": "Energetic",
+            "bio": "Daisy is a 1-year-old female Poodle who loves to play and run. She lives in Brisbane and is owned by Emma. Daisy is an energetic and playful dog who loves to play with her toys and chase after birds.",
+            "owner": "Emma",
+            "email": "emma4@gmail.com"
+        },
+        {
+            "id": 5,
+            "name": "Max",
+            "age": 4,
+            "suburb": "Ultimo",
+            "breed": "German Shepherd",
+            "gender": "Male",
+            "photo": "get_image/dog5.png",
+            "temperament": "Loyal",
+            "bio": "Max is a 4-year-old male German Shepherd who loves to play and protect. He lives in Adelaide and is owned by Tom. Max is a loyal and protective dog who loves to spend time with his family and keep them safe.",
+            "owner": "Tom",
+            "email": "tom5@gmail.com"
+        },
+        {
+            "id": 6,
+            "name": "Charlie",
+            "age": 3,
+            "suburb": "Haymarket",
+            "breed": "Golden Retriever",
+            "gender": "Male",
+            "photo": "get_image/dog6.jpeg",
+            "temperament": "Friendly",
+            "bio": "Charlie is a 3-year-old male Golden Retriever who loves to play and swim. He lives in Canberra and is owned by Rachel. Charlie is a friendly and social dog who loves to meet new people and make new friends.",
+            "owner": "Rachel",
+            "email": "rachel6@gmail.com"
+        },
+        {
+            "id": 7,
+            "name": "Rocky",
+            "age": 4,
+            "suburb": "Potts Point",
+            "breed": "Bulldog",
+            "gender": "Male",
+            "photo": "get_image/dog7.jpeg",
+            "temperament": "Loyal",
+            "bio": "Rocky is a 4-year-old male Bulldog who loves to cuddle and watch TV. He lives in Hobart and is owned by Michael. Rocky is a loyal and loving dog who loves to spend time with his family and keep them company.",
+            "owner": "Michael",
+            "email": "michael7@gmail.com"
+        },
+        {
+            "id": 8,
+            "name": "Molly",
+            "age": 1,
+            "suburb": "Pyrmont",
+            "breed": "Cocker Spaniel",
+            "gender": "Female",
+            "photo": "get_image/dog8.jpg",
+            "temperament": "Friendly",
+            "bio": "Molly is a 1-year-old female Cocker Spaniel who loves to play and chase. She lives in Darwin and is owned by Amanda. Molly is a friendly and playful dog who loves to play with her toys and run around the park.",
+            "owner": "Amanda",
+            "email": "amanda8@gmail.com"
+        },
+        {
+            "id": 9,
+            "name": "Toby",
+            "age": 5,
+            "suburb": "The Rocks",
+            "breed": "Siberian Husky",
+            "gender": "Male",
+            "photo": "get_image/dog9.jpg",
+            "temperament": "Energetic",
+            "bio": "Toby is a 5-year-old male Siberian Husky who loves to run and explore. He lives in Brisbane and is owned by Lauren. Toby is an energetic and adventurous dog who loves to go on long hikes and discover new places.",
+            "owner": "Lauren",
+            "email": "lauren9@gmail.com"
+            }
     ],
     "parks": [
         {
-            "name": "hyde park", 
-            "address": "34 Pitt Street, Wynyard",
-            "coords": [1,2]
+            "id": 1,
+            "name": "Sydney Park",
+            "address": "2 St Peters Rd, St Peters, New South Wales 2044, Australia",
+            "coords": {
+                "latitude": -33.9021224,
+                "longitude": 151.1940441
+            },
+            "photo": "get_image/park1.jpeg"
         },
         {
-            "name": "Meow park", 
-            "address": "123 George Street, Town Hall",
-            "coords": [46,87]
+            "id": 2,
+            "name": "Centennial Park",
+            "address": "Grand Drive, Centennial Park, New South Wales 2021, Australia",
+            "coords": {
+                "latitude": -33.8825706,
+                "longitude": 151.2197235
+            },
+            "photo": "get_image/park2.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "The Royal Botanic Garden",
+            "address": "Mrs Macquaries Rd, Sydney, New South Wales 2000, Australia",
+            "coords": {
+                "latitude": -33.8631747,
+                "longitude": 151.2156798
+            },
+            "photo": "get_image/park3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Bicentennial Park",
+            "address": "Olympic Dr, Homebush Bay, New South Wales 2127, Australia",
+            "coords": {
+                "latitude": -33.8474749,
+                "longitude": 151.0589589
+            },
+            "photo": "get_image/park4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Darling Harbour",
+            "address": "Darling Dr, Sydney, New South Wales 2000, Australia",
+            "coords": {
+                "latitude": -33.8740605,
+                "longitude": 151.2001693
+            },
+            "photo": "get_image/park5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Barangaroo Reserve",
+            "address": "Hickson Rd, Barangaroo, New South Wales 2000, Australia",
+            "coords": {
+                "latitude": -33.8617807,
+                "longitude": 151.203934
+            },
+            "photo": "get_image/park6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Hyde Park",
+            "address": "Elizabeth St, Sydney, New South Wales 2000, Australia",
+            "coords": {
+                "latitude": -33.8714524,
+                "longitude": 151.2097404
+            },
+            "photo": "get_image/park7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Blackwattle Bay Park",
+            "address": "Pirrama Rd, Pyrmont, New South Wales 2009, Australia",
+            "coords": {
+                "latitude": -33.8680383,
+                "longitude": 151.1936319
+            },
+            "photo": "get_image/park8.jpg"
         }
     ]
 }

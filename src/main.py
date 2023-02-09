@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, send_from_directory
 from flask_cors import CORS
 from json import dumps, loads, load, dump
 from dog import Dog
@@ -47,6 +47,28 @@ def getalldogs():
             file_data = load(file)
             all_dogs = file_data['dogs']
         return dumps(all_dogs)
+    
+@APP.route("/get_dog/<dog_id>", methods=["GET"])
+def get_dog(dog_id):
+    """Return the data about specific dog"""
+    with open("data.json", "r+") as file:
+        file_data = load(file)
+        for dog in file_data['dogs']:
+            if dog["id"] == int(dog_id):
+                return dumps(dog)
+
+@APP.route("/get_park/<park_id>", methods=["GET"])
+def get_park(park_id):
+    """Return the data about specific dog"""
+    with open("data.json", "r+") as file:
+        file_data = load(file)
+        for park in file_data['parks']:
+            if park["id"] == int(park_id):
+                return dumps(park)
+
+@APP.route("/get_image/<filename>", methods=["GET"])
+def get_image(filename):
+    return send_from_directory("pictures", filename)
 
 
 @APP.route("/getallparks", methods=["GET"])
