@@ -53,16 +53,18 @@ def get_dog(dog_id):
     """Return the data about specific dog"""
     with open("data.json", "r+") as file:
         file_data = load(file)
-        dog_data = file_data['dogs'][int(dog_id)]
-    return dumps(dog_data)
+        for dog in file_data['dogs']:
+            if dog["id"] == int(dog_id):
+                return dumps(dog)
 
 @APP.route("/get_park/<park_id>", methods=["GET"])
 def get_park(park_id):
     """Return the data about specific dog"""
     with open("data.json", "r+") as file:
         file_data = load(file)
-        park_data = file_data['parks'][int(park_id)]
-    return dumps(park_data)
+        for park in file_data['parks']:
+            if park["id"] == int(park_id):
+                return dumps(park)
 
 @APP.route("/get_image/<filename>", methods=["GET"])
 def get_image(filename):
