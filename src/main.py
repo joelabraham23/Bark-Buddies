@@ -52,12 +52,6 @@ def getalldogs():
 def get_image(filename):
     return send_from_directory("pictures", filename)
 
-# def pic():
-#         """Return all the dogs stored in the database"""
-#         with open("data.json", "r+") as file:
-#             file_data = load(file)
-#             dog_path = file_data['dogs'][1]['photo']
-#         return send_from_directory(APP.config(['pictures']), dog_path)
 
 @APP.route("/getallparks", methods=["GET"])
 def getallparks():
