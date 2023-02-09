@@ -33,14 +33,14 @@
             "name": "hyde park", 
             "address": "34 Pitt Street, Wynyard",
             "coords": [1,2],
-            "photo": "park1.jpeg"
+            "photo": "get_image/park1.jpeg"
         },
         {
             "id": 2,
             "name": "Meow park", 
             "address": "123 George Street, Town Hall",
             "coords": [46,87],
-            "photo": "park2.jpeg"
+            "photo": "get_image/park2.jpeg"
         }
     ]
 }
